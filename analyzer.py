@@ -1,7 +1,3 @@
-"""
-Core analyzer module that combines audio and text analysis.
-"""
-
 from audio_analyzer import analyze_prosody
 from text_analyzer import analyze_sentiment
 

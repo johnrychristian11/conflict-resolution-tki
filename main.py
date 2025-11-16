@@ -1,7 +1,3 @@
-"""
-Main entry point for TKI conversation analysis system.
-"""
-
 import os
 from analyzer import compute_tension_and_assertiveness
 from tki_mapper import map_tki_style

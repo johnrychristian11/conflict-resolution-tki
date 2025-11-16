@@ -1,8 +1,3 @@
-"""
-Text sentiment analysis module for conflict detection.
-Analyzes text polarity and subjectivity.
-"""
-
 from textblob import TextBlob
 
 

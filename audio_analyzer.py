@@ -1,8 +1,3 @@
-"""
-Audio prosody analysis module for conflict detection.
-Analyzes speech patterns including energy, pitch, and pauses.
-"""
-
 import librosa
 import numpy as np
 

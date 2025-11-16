@@ -1,8 +1,3 @@
-"""
-TKI (Thomas-Kilmann Conflict Mode Instrument) style mapping module.
-"""
-
-
 def map_tki_style(tension, assertiveness):
     """
     Map tension and assertiveness scores to TKI conflict styles.

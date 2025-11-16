@@ -1,7 +1,3 @@
-"""
-Configuration file for sample conversation data.
-"""
-
 # Sample conversation for demo purposes
 SAMPLE_CONVERSATION = [
     {
