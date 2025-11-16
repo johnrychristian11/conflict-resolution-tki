@@ -19,7 +19,7 @@ def compute_tension_and_assertiveness(text, audio_path):
     audio_tension, audio_assertiveness = analyze_prosody(audio_path)
     
     # Audio is much more reliable than text for these features
-    final_tension = (0.5 * text_tension) + (0.5 * audio_tension)
+    final_tension = (0.4 * text_tension) + (0.6 * audio_tension)
     final_assertiveness = (0.2 * text_assertiveness) + (0.8 * audio_assertiveness)
     
     print(f"    [FINAL] Tension: {final_tension:.3f}, Assertiveness: {final_assertiveness:.3f}\n")
