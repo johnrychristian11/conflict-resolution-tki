@@ -18,8 +18,6 @@ def compute_tension_and_assertiveness(text, audio_path):
     text_tension, text_assertiveness = analyze_sentiment(text)
     audio_tension, audio_assertiveness = analyze_prosody(audio_path)
     
-    # Audio is reliable for tension (pitch/energy patterns)
-    # Text compliance is more reliable for assertiveness (semantic acceptance)
     final_tension = (0.4 * text_tension) + (0.6 * audio_tension)
     final_assertiveness = (0.4 * text_assertiveness) + (0.6 * audio_assertiveness)
     

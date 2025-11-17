@@ -1,0 +1,176 @@
+(RUN 1)
+Turn 1: Manager
+  Analyzing: 'Let us work together to find the best approach....'
+    [Sentiment]
+      Polarity: 1.00, Subjectivity: 0.30
+    [Compliance] Score: 0.500, [Avoidance] Score: 0.000, [Collaboration] Score: 0.700    
+    [Text] Tension: 0.060, Assertiveness: 0.350
+    [Prosody Debug]
+      Pitch:std: 953.3)
+      Energy: mean=0.0607, std=0.0317
+      Silence ratio: 0.155 (threshold: 0.0243)
+      Speech ratio: 0.915
+      Sustained energy ratio: 0.054
+      Weighted variance - Pitch: 1.000, Energy: 0.633
+    [Prosody] Tension: 0.832, Assertiveness: 0.625
+    [FINAL] Tension: 0.523, Assertiveness: 0.515
+
+→ TENSION: 0.52, ASSERTIVENESS: 0.52
+→ TKI STYLE: Collaborating (assertive, constructive)
+----------------------------------------------------------------------
+Turn 2: Employee
+  Analyzing: 'Sure, I can give some  extra time...'
+    [Sentiment]
+      Polarity: 0.25, Subjectivity: 0.49
+    [Compliance] Score: 0.950, [Avoidance] Score: 0.000, [Collaboration] Score: 0.000    
+    [Text] Tension: 0.474, Assertiveness: 0.250
+    [Prosody Debug]
+      Pitch:std: 1080.8)
+      Energy: mean=0.0651, std=0.0492
+      Silence ratio: 0.298 (threshold: 0.0260)
+      Speech ratio: 0.731
+      Sustained energy ratio: 0.106
+      Weighted variance - Pitch: 1.000, Energy: 0.983
+    [Prosody] Tension: 0.906, Assertiveness: 0.648
+    [FINAL] Tension: 0.733, Assertiveness: 0.489
+
+→ TENSION: 0.73, ASSERTIVENESS: 0.49
+→ TKI STYLE: Compromising (moderate assertiveness/tension)
+----------------------------------------------------------------------
+
+======================================================================
+=== AI-DRIVEN CONFLICT RESOLUTION ===
+======================================================================
+
+Here are actionable resolution strategies and recommendations based on the TKI analysis:
+
+1.  **Resolution Strategies:**
+
+    *   **Manager (Collaborating):** Leverage the manager's collaborative style by facilitating a structured brainstorming session. Use techniques like mind mapping or "sticky note" idea generation to ensure all viewpoints are heard. Focus on identifying shared goals.
+    *   **Employee (Compromising):** Acknowledge the employee's willingness to compromise and extra time. Actively solicit their specific concerns and ideas, ensuring they feel their contributions are valued and integrated into the final approach.
+
+2.  **Adjustments for Better Outcomes:**
+
+    *   **Manager:** While collaboration is beneficial, be mindful of the employee's higher tension. Actively listen and validate their perspective to avoid being perceived as dismissive or overly dominant in the collaborative process. Be prepared to cede some control and consider alternatives proposed by the employee.
+    *   **Employee:** The employee should explicitly state their needs and constraints when offering their time. This moves the compromise from implicit to explicit, potentially reducing tension. Instead of a general "Sure, I can give some extra time", something like "I can dedicate [specific amount of time] to this, but I'll need to prioritize [other tasks] accordingly" would be better.
+
+(END OF RUN 1)
+
+(RUN 2)
+Turn 1: Manager
+  Analyzing: 'Let us work together to find the best approach....'
+    [Sentiment]
+      Polarity: 1.00, Subjectivity: 0.30
+    [Compliance] Score: 0.500, [Avoidance] Score: 0.000, [Collaboration] Score: 0.700    
+    [Text] Tension: 0.060, Assertiveness: 0.350
+    [Prosody Debug]
+      Pitch:std: 953.3)
+      Energy: mean=0.0607, std=0.0317
+      Silence ratio: 0.155 (threshold: 0.0243)
+      Speech ratio: 0.915
+      Sustained energy ratio: 0.054
+      Weighted variance - Pitch: 1.000, Energy: 0.633
+    [Prosody] Tension: 0.832, Assertiveness: 0.625
+    [FINAL] Tension: 0.523, Assertiveness: 0.515
+
+→ TENSION: 0.52, ASSERTIVENESS: 0.52
+→ TKI STYLE: Collaborating (assertive, constructive)
+----------------------------------------------------------------------
+Turn 2: Employee
+  Analyzing: 'Sure, I can give some  extra time...'
+    [Sentiment]
+      Polarity: 0.25, Subjectivity: 0.49
+    [Compliance] Score: 0.950, [Avoidance] Score: 0.000, [Collaboration] Score: 0.000    
+    [Text] Tension: 0.474, Assertiveness: 0.250
+    [Prosody Debug]
+      Pitch:std: 1080.8)
+      Energy: mean=0.0651, std=0.0492
+      Silence ratio: 0.298 (threshold: 0.0260)
+      Speech ratio: 0.731
+      Sustained energy ratio: 0.106
+      Weighted variance - Pitch: 1.000, Energy: 0.983
+    [Prosody] Tension: 0.906, Assertiveness: 0.648
+    [FINAL] Tension: 0.733, Assertiveness: 0.489
+
+→ TENSION: 0.73, ASSERTIVENESS: 0.49
+→ TKI STYLE: Compromising (moderate assertiveness/tension)
+----------------------------------------------------------------------
+
+======================================================================
+=== AI-DRIVEN CONFLICT RESOLUTION ===
+======================================================================
+
+Okay, here's my analysis and recommendations:
+
+**Analysis:**
+
+*   **Manager (Collaborating):** The manager is initiating a problem-solving approach, focusing on finding the best solution together. High assertiveness indicates they have their own ideas but are open to input.
+*   **Employee (Compromising):** The employee is willing to meet the manager halfway, offering to contribute time. The high tension suggests they might be feeling pressured or have reservations that aren't being fully expressed.
+
+**Resolution Strategies:**
+
+1.  **Manager: Active Listening & Acknowledgment:** The manager should begin by explicitly acknowledging the employee's willingness to contribute extra time ("I appreciate you being willing to put in the extra effort."). Then, actively solicit the employee's concerns or reservations ("What are your initial thoughts on this? Is there anything you're hesitant about?").
+2.  **Joint Brainstorming with Defined Boundaries:** Structure a brainstorming session with a clear time limit and a defined agenda. This prevents the employee from feeling like their time commitment is open-ended. The manager should take on the role of facilitator, ensuring everyone contributes equally.
+
+**Approach Adjustments:**
+
+*   **Manager:** Focus on reducing perceived pressure. Soften the collaborative approach by explicitly stating that the employee's input is valuable, even if it differs from the manager's initial ideas. Use phrases like, "I'm really interested in your perspective on this," or "Let's explore all the options together."
+*   **Employee:** While compromising is valuable, the employee needs to communicate more openly to reduce their internal tension. They could try using "I" statements to express their concerns or needs (e.g., "I'm willing to contribute extra time, but I also need to ensure my other tasks aren't neglected."). The manager created space for input and should use it.
+(END OF RUN 2)
+
+(RUN 3)
+Turn 1: Manager
+  Analyzing: 'Let us work together to find the best approach....'
+    [Sentiment]
+      Polarity: 1.00, Subjectivity: 0.30
+    [Compliance] Score: 0.500, [Avoidance] Score: 0.000, [Collaboration] Score: 0.700    
+    [Text] Tension: 0.060, Assertiveness: 0.350
+    [Prosody Debug]
+      Pitch:std: 953.3)
+      Energy: mean=0.0607, std=0.0317
+      Silence ratio: 0.155 (threshold: 0.0243)
+      Speech ratio: 0.915
+      Sustained energy ratio: 0.054
+      Weighted variance - Pitch: 1.000, Energy: 0.633
+    [Prosody] Tension: 0.832, Assertiveness: 0.625
+    [FINAL] Tension: 0.523, Assertiveness: 0.515
+
+→ TENSION: 0.52, ASSERTIVENESS: 0.52
+→ TKI STYLE: Collaborating (assertive, constructive)
+----------------------------------------------------------------------
+Turn 2: Employee
+  Analyzing: 'Sure, I can give some  extra time...'
+    [Sentiment]
+      Polarity: 0.25, Subjectivity: 0.49
+    [Compliance] Score: 0.950, [Avoidance] Score: 0.000, [Collaboration] Score: 0.000    
+    [Text] Tension: 0.474, Assertiveness: 0.250
+    [Prosody Debug]
+      Pitch:std: 1080.8)
+      Energy: mean=0.0651, std=0.0492
+      Silence ratio: 0.298 (threshold: 0.0260)
+      Speech ratio: 0.731
+      Sustained energy ratio: 0.106
+      Weighted variance - Pitch: 1.000, Energy: 0.983
+    [Prosody] Tension: 0.906, Assertiveness: 0.648
+    [FINAL] Tension: 0.733, Assertiveness: 0.489
+
+→ TENSION: 0.73, ASSERTIVENESS: 0.49
+→ TKI STYLE: Compromising (moderate assertiveness/tension)
+----------------------------------------------------------------------
+
+======================================================================
+=== AI-DRIVEN CONFLICT RESOLUTION ===
+======================================================================
+
+Here's a concise analysis and actionable recommendations based on the conversation:
+
+1. **Resolution Strategies:**
+
+    *   **Manager:** Continue fostering open dialogue and actively solicit the employee's specific ideas and concerns, demonstrating that their input is valued.
+    *   **Employee:** Clearly articulate their needs and boundaries regarding the "extra time" they're offering, ensuring the workload is manageable and doesn't lead to burnout. 
+
+2. **Approach Adjustments:**
+
+    *   **Manager:** While collaborating is ideal, be mindful of the employee's tension. Explicitly acknowledge their willingness to compromise and offer support to address any underlying concerns contributing to the tension (e.g., resource constraints, workload balance).
+    *   **Employee:** While compromising is valuable, shift toward collaborating by articulating their needs and expectations regarding the project to find creative ways to improve the process without sacrificing their wellbeing.
+(END OF RUN 3)

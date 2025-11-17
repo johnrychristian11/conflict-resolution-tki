@@ -1,0 +1,238 @@
+(RUN 1)
+Turn 1: Person A
+  Analyzing: 'We need to talk about your progress on the new module....'
+    [Sentiment]
+      Polarity: 0.14, Subjectivity: 0.45
+    [Compliance] Score: 0.500, [Avoidance] Score: 0.000, [Collaboration] Score: 0.000
+    [Text] Tension: 0.523, Assertiveness: 0.650
+    [Prosody Debug]
+      Pitch:std: 826.9)
+      Energy: mean=0.0579, std=0.0458
+      Silence ratio: 0.309 (threshold: 0.0231)
+      Speech ratio: 0.739
+      Sustained energy ratio: 0.145
+      Weighted variance - Pitch: 1.000, Energy: 0.915
+    [Prosody] Tension: 0.846, Assertiveness: 0.326
+    [FINAL] Tension: 0.717, Assertiveness: 0.455
+
+→ TENSION: 0.72, ASSERTIVENESS: 0.46
+→ TKI STYLE: Compromising (moderate assertiveness/tension)
+----------------------------------------------------------------------
+Turn 2: Person B
+  Analyzing: 'can we.. can we discuss it later? I am busy right now....'
+    [Sentiment]
+      Polarity: 0.13, Subjectivity: 0.28
+    [Compliance] Score: 0.100, [Avoidance] Score: 0.950, [Collaboration] Score: 0.000    
+    [Text] Tension: 0.491, Assertiveness: 0.150
+    [Prosody Debug]
+      Pitch:std: 566.8)
+      Energy: mean=0.0445, std=0.0356
+      Silence ratio: 0.349 (threshold: 0.0178)
+      Speech ratio: 0.698
+      Sustained energy ratio: 0.077
+      Weighted variance - Pitch: 0.834, Energy: 0.594
+    [Prosody] Tension: 0.646, Assertiveness: 0.252
+    [FINAL] Tension: 0.584, Assertiveness: 0.211
+
+→ TENSION: 0.58, ASSERTIVENESS: 0.21
+→ TKI STYLE: Avoiding (withdrawal, anxious)
+----------------------------------------------------------------------
+Turn 3: Person A
+  Analyzing: 'We've postponed this twice already. Lets schedule a time tod...'
+    [Sentiment]
+      Polarity: 0.00, Subjectivity: 0.00
+    [Compliance] Score: 0.100, [Avoidance] Score: 0.000, [Collaboration] Score: 0.000    
+    [Text] Tension: 0.500, Assertiveness: 0.650
+    [Prosody Debug]
+      Pitch:std: 900.2)
+      Energy: mean=0.0819, std=0.0489
+      Silence ratio: 0.202 (threshold: 0.0328)
+      Speech ratio: 0.849
+      Sustained energy ratio: 0.042
+      Weighted variance - Pitch: 1.000, Energy: 0.979
+    [Prosody] Tension: 0.994, Assertiveness: 0.692
+    [FINAL] Tension: 0.796, Assertiveness: 0.675
+
+→ TENSION: 0.800000011920929, ASSERTIVENESS: 0.67
+→ TKI STYLE: Competing (assertive, high tension)
+----------------------------------------------------------------------
+
+======================================================================
+=== AI-DRIVEN CONFLICT RESOLUTION ===
+======================================================================
+
+Here's a breakdown of resolution strategies and adjusted approaches based on the TKI analysis:
+
+1.  **Resolution Strategies:**
+
+    *   **Acknowledge B's Time Constraints & Find a Compromise:** A, recognizing B's initial avoidance, should explicitly acknowledge their busyness. A could say, "I understand you're busy. How about we schedule a focused 15-minute check-in later *today*? Would [specific time] work?" This addresses B's avoidance while still holding them accountable.     
+    *   **Structured Discussion with Clear Objectives:** Before the scheduled meeting, A should email B a brief agenda outlining specific points to discuss regarding the module progress. This provides B with clarity and reduces anxiety, potentially moving them away from avoidance.
+
+2.  **Individual Approach Adjustments:**
+
+    *   **Person A (Competing/Compromising):** While A's assertiveness is understandable, they need to soften their approach. Actively listening to B's concerns (instead of immediately pushing for a meeting) will reduce B's defensiveness. Asking open-ended questions like, "What's preventing you from making progress on the module?" shows empathy and can uncover underlying issues. Avoid phrases that start with "We need to..." and instead use "I'm hoping to understand..."
+
+    *   **Person B (Avoiding):** B needs to proactively manage their avoidance. Instead of simply postponing, they should offer alternative solutions like, "I'm swamped now, but can I send you a progress update by [specific time] and schedule a longer discussion for tomorrow morning?" Even if the initial response is avoidance, offering a counter solution demonstrates engagement, and an acknowledgement of project deadlines.
+(END OF RUN 1)
+
+(RUN 2)
+Turn 1: Person A
+  Analyzing: 'We need to talk about your progress on the new module....'
+    [Sentiment]
+      Polarity: 0.14, Subjectivity: 0.45
+    [Compliance] Score: 0.500, [Avoidance] Score: 0.000, [Collaboration] Score: 0.000    
+    [Text] Tension: 0.523, Assertiveness: 0.650
+    [Prosody Debug]
+      Pitch:std: 826.9)
+      Energy: mean=0.0579, std=0.0458
+      Silence ratio: 0.309 (threshold: 0.0231)
+      Speech ratio: 0.739
+      Sustained energy ratio: 0.145
+      Weighted variance - Pitch: 1.000, Energy: 0.915
+    [Prosody] Tension: 0.846, Assertiveness: 0.326
+    [FINAL] Tension: 0.717, Assertiveness: 0.455
+
+→ TENSION: 0.72, ASSERTIVENESS: 0.46
+→ TKI STYLE: Compromising (moderate assertiveness/tension)
+----------------------------------------------------------------------
+Turn 2: Person B
+  Analyzing: 'can we.. can we discuss it later? I am busy right now....'
+    [Sentiment]
+      Polarity: 0.13, Subjectivity: 0.28
+    [Compliance] Score: 0.100, [Avoidance] Score: 0.950, [Collaboration] Score: 0.000    
+    [Text] Tension: 0.491, Assertiveness: 0.150
+    [Prosody Debug]
+      Pitch:std: 566.8)
+      Energy: mean=0.0445, std=0.0356
+      Silence ratio: 0.349 (threshold: 0.0178)
+      Speech ratio: 0.698
+      Sustained energy ratio: 0.077
+      Weighted variance - Pitch: 0.834, Energy: 0.594
+    [Prosody] Tension: 0.646, Assertiveness: 0.252
+    [FINAL] Tension: 0.584, Assertiveness: 0.211
+
+→ TENSION: 0.58, ASSERTIVENESS: 0.21
+→ TKI STYLE: Avoiding (withdrawal, anxious)
+----------------------------------------------------------------------
+Turn 3: Person A
+  Analyzing: 'We've postponed this twice already. Lets schedule a time tod...'
+    [Sentiment]
+      Polarity: 0.00, Subjectivity: 0.00
+    [Compliance] Score: 0.100, [Avoidance] Score: 0.000, [Collaboration] Score: 0.000    
+    [Text] Tension: 0.500, Assertiveness: 0.650
+    [Prosody Debug]
+      Pitch:std: 900.2)
+      Energy: mean=0.0819, std=0.0489
+      Silence ratio: 0.202 (threshold: 0.0328)
+      Speech ratio: 0.849
+      Sustained energy ratio: 0.042
+      Weighted variance - Pitch: 1.000, Energy: 0.979
+    [Prosody] Tension: 0.994, Assertiveness: 0.692
+    [FINAL] Tension: 0.796, Assertiveness: 0.675
+
+→ TENSION: 0.800000011920929, ASSERTIVENESS: 0.67
+→ TKI STYLE: Competing (assertive, high tension)
+----------------------------------------------------------------------
+
+======================================================================
+=== AI-DRIVEN CONFLICT RESOLUTION ===
+======================================================================
+
+Okay, here's an analysis and actionable strategies based on the provided conversation snippets and TKI interpretations:
+
+**Analysis Summary:**
+
+*   **Person A:** Initially compromising, but escalates to competing when Person B avoids. Their concern is project progress.
+*   **Person B:** Avoiding conflict, likely due to feeling overwhelmed or unprepared. Their concern is managing their current workload.
+
+**1. Resolution Strategies:**
+
+*   **Structured Compromise with Timeboxing:** Person A should propose a short, focused meeting (e.g., 30 minutes) to specifically address key milestones and any roadblocks Person B is facing. "Okay, I understand you're busy. How about we book just 30 minutes this afternoon to quickly go over the major checkpoints? We can schedule a longer session next week if necessary." This acknowledges Person B's time constraints while maintaining focus on project progress.
+*   **Problem-Solving Focus:** Person A shifts to a more collaborative approach. "I am noticing that you are busy. What can I do to help you with the module? Maybe I can take over some of the work?"
+
+**2. Recommendations for Individual Adjustments:**
+
+*   **Person A (Moving from Competing to Collaborating):** Lower the tension. Needs to soften their assertive stance and practice active listening to understand Person B's underlying reasons for avoidance. Instead of pushing for an immediate discussion, ask open-ended questions: "What's making it difficult to find time for this module right now?"  Then work collaboratively to find solutions.
+*   **Person B (Moving from Avoiding to Accommodating/Compromising):** Needs to acknowledge the importance of the discussion and offer a concrete alternative instead of simple avoidance. Example: "I'm really swamped right now, but I can definitely dedicate an hour to this first thing tomorrow morning. Would that work?" This demonstrates a willingness to engage while respecting their current workload.
+(END OF RUN 2)
+
+(RUN 3)
+Turn 1: Person A
+  Analyzing: 'We need to talk about your progress on the new module....'
+    [Sentiment]
+      Polarity: 0.14, Subjectivity: 0.45
+    [Compliance] Score: 0.500, [Avoidance] Score: 0.000, [Collaboration] Score: 0.000    
+    [Text] Tension: 0.523, Assertiveness: 0.650
+    [Prosody Debug]
+      Pitch:std: 826.9)
+      Energy: mean=0.0579, std=0.0458
+      Silence ratio: 0.309 (threshold: 0.0231)
+      Speech ratio: 0.739
+      Sustained energy ratio: 0.145
+      Weighted variance - Pitch: 1.000, Energy: 0.915
+    [Prosody] Tension: 0.846, Assertiveness: 0.326
+    [FINAL] Tension: 0.717, Assertiveness: 0.455
+
+→ TENSION: 0.72, ASSERTIVENESS: 0.46
+→ TKI STYLE: Compromising (moderate assertiveness/tension)
+----------------------------------------------------------------------
+Turn 2: Person B
+  Analyzing: 'can we.. can we discuss it later? I am busy right now....'
+    [Sentiment]
+      Polarity: 0.13, Subjectivity: 0.28
+    [Compliance] Score: 0.100, [Avoidance] Score: 0.950, [Collaboration] Score: 0.000    
+    [Text] Tension: 0.491, Assertiveness: 0.150
+    [Prosody Debug]
+      Pitch:std: 566.8)
+      Energy: mean=0.0445, std=0.0356
+      Silence ratio: 0.349 (threshold: 0.0178)
+      Speech ratio: 0.698
+      Sustained energy ratio: 0.077
+      Weighted variance - Pitch: 0.834, Energy: 0.594
+    [Prosody] Tension: 0.646, Assertiveness: 0.252
+    [FINAL] Tension: 0.584, Assertiveness: 0.211
+
+→ TENSION: 0.58, ASSERTIVENESS: 0.21
+→ TKI STYLE: Avoiding (withdrawal, anxious)
+----------------------------------------------------------------------
+Turn 3: Person A
+  Analyzing: 'We've postponed this twice already. Lets schedule a time tod...'
+    [Sentiment]
+      Polarity: 0.00, Subjectivity: 0.00
+    [Compliance] Score: 0.100, [Avoidance] Score: 0.000, [Collaboration] Score: 0.000    
+    [Text] Tension: 0.500, Assertiveness: 0.650
+    [Prosody Debug]
+      Pitch:std: 900.2)
+      Energy: mean=0.0819, std=0.0489
+      Silence ratio: 0.202 (threshold: 0.0328)
+      Speech ratio: 0.849
+      Sustained energy ratio: 0.042
+      Weighted variance - Pitch: 1.000, Energy: 0.979
+    [Prosody] Tension: 0.994, Assertiveness: 0.692
+    [FINAL] Tension: 0.796, Assertiveness: 0.675
+
+→ TENSION: 0.800000011920929, ASSERTIVENESS: 0.67
+→ TKI STYLE: Competing (assertive, high tension)
+----------------------------------------------------------------------
+
+======================================================================
+=== AI-DRIVEN CONFLICT RESOLUTION ===
+======================================================================
+
+Okay, here's a conflict resolution analysis and actionable strategies based on the provided conversation snippet:
+
+**Analysis Summary:**
+
+*   **Person A** is initially approaching the conversation with a Compromising style but quickly escalates to Competing. They value getting the task done and are growing impatient.
+*   **Person B** is utilizing an Avoiding style, likely feeling overwhelmed or unprepared. Their anxiety is evident.
+
+**1. Resolution Strategies:**
+
+*   **Immediate Strategy (for Person A to initiate):** Offer a specific, short meeting. "How about 15 minutes after lunch to quickly go over the key areas? We can schedule a longer meeting later if needed." This addresses Person B's immediate busyness and provides a defined, less intimidating scope. This shifts Person A back toward compromising.
+*   **Longer-Term Strategy:** Facilitate a discussion about workload and prioritization. (Person A and Person B, perhaps with a supervisor). "Let's talk about how we can better manage deadlines and communication on these projects moving forward. Are there any roadblocks or support needs we need to address?" This tackles the root cause of Person B's avoidance.
+
+**2. Recommendations for Individual Adjustments:**
+
+*   **Person A:** *De-escalate & Listen First*. Before pushing for a meeting, briefly acknowledge Person B's current situation. "I understand you're busy. What's a better time for you to discuss this *today*? Is there something blocking you on the module?". This shows empathy and may uncover the real issue, preventing a power struggle. Lower your assertiveness and tension.
+*   **Person B:** *Be Proactive & Offer Alternatives*. Instead of simply avoiding, propose a concrete alternative. "I'm swamped right now, but I can definitely give you a progress update first thing tomorrow morning. Will that work?". This demonstrates responsibility and proactive communication, reducing Person A's need to push. Increase assertiveness.  
+(END OF RUN 3)
