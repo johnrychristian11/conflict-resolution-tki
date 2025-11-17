@@ -44,7 +44,6 @@ def analyze_conversation(conversation):
 
 def main():
     """Main execution function."""
-    print("=== TKI Conversation Analysis (Audio-Focused) ===\n")
     
     # Analyze conversation
     conversation_analysis = analyze_conversation(SAMPLE_CONVERSATION)
