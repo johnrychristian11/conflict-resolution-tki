@@ -2,7 +2,7 @@ import os
 from analyzer import compute_tension_and_assertiveness
 from tki_mapper import map_tki_style
 from ai_resolution import generate_resolution
-from input import SAMPLE_CONVERSATION
+from input3 import SAMPLE_CONVERSATION
 
 
 def analyze_conversation(conversation):
@@ -61,9 +61,9 @@ def main():
         print("No API key found. Please set GOOGLE_API_KEY environment variable")
         print("Example: export GOOGLE_API_KEY='your-api-key-here'")
         print("Or get one from: https://makersuite.google.com/app/apikey")
-    else:
-        resolution = generate_resolution(conversation_analysis, api_key)
-        print(resolution)
+    #else:
+        #resolution = generate_resolution(conversation_analysis, api_key)
+        #print(resolution)
 
 
 if __name__ == "__main__":
