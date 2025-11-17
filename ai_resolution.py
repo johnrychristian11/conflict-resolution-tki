@@ -1,9 +1,4 @@
-"""
-AI-driven conflict resolution module using Google Gemini API.
-"""
-
 from google import genai
-
 
 def generate_resolution(conversation_analysis, api_key):
     """

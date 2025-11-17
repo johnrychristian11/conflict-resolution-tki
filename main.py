@@ -1,12 +1,8 @@
-"""
-Main entry point for TKI conversation analysis system.
-"""
-
 import os
 from analyzer import compute_tension_and_assertiveness
 from tki_mapper import map_tki_style
 from ai_resolution import generate_resolution
-from input import SAMPLE_CONVERSATION
+from input2 import SAMPLE_CONVERSATION
 
 
 def analyze_conversation(conversation):
@@ -48,7 +44,6 @@ def analyze_conversation(conversation):
 
 def main():
     """Main execution function."""
-    print("=== TKI Conversation Analysis (Audio-Focused) ===\n")
     
     # Analyze conversation
     conversation_analysis = analyze_conversation(SAMPLE_CONVERSATION)

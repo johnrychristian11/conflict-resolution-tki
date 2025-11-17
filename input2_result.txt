@@ -1,0 +1,295 @@
+(RUN 1)
+Turn 1: Customer
+  Analyzing: 'I need a refund for my order. It arrived late and I don't wa...'
+    [Sentiment]
+      Polarity: -0.30, Subjectivity: 0.60
+    [Compliance] Score: 0.100, [Avoidance] Score: 0.000, [Collaboration] Score: 0.000    
+    [Text] Tension: 0.770, Assertiveness: 0.650
+    [Prosody Debug]
+      Pitch:std: 273.0)
+      Energy: mean=0.1123, std=0.0479
+      Silence ratio: 0.110 (threshold: 0.0449)
+      Speech ratio: 0.910
+      Sustained energy ratio: 0.020
+      Weighted variance - Pitch: 1.000, Energy: 0.958
+    [Prosody] Tension: 0.904, Assertiveness: 0.691
+    [FINAL] Tension: 0.851, Assertiveness: 0.675
+
+→ TENSION: 0.85, ASSERTIVENESS: 0.67
+→ TKI STYLE: Competing (assertive, high tension)
+----------------------------------------------------------------------
+Turn 2: Support Agent
+  Analyzing: 'I understand your frustration. Let's see if we can find a so...'
+    [Sentiment]
+      Polarity: 0.00, Subjectivity: 0.00
+    [Compliance] Score: 0.500, [Avoidance] Score: 0.000, [Collaboration] Score: 0.900    
+    [Text] Tension: 0.500, Assertiveness: 0.350
+    [Prosody Debug]
+      Pitch:std: 957.5)
+      Energy: mean=0.0569, std=0.0401
+      Silence ratio: 0.230 (threshold: 0.0227)
+      Speech ratio: 0.816
+      Sustained energy ratio: 0.074
+      Weighted variance - Pitch: 1.000, Energy: 0.803
+    [Prosody] Tension: 0.883, Assertiveness: 0.599
+    [FINAL] Tension: 0.730, Assertiveness: 0.499
+
+→ TENSION: 0.7300000190734863, ASSERTIVENESS: 0.5
+→ TKI STYLE: Compromising (moderate assertiveness/tension)
+----------------------------------------------------------------------
+Turn 3: Customer
+  Analyzing: 'Store credit is fine. I just want a quick resolution....'
+    [Sentiment]
+      Polarity: 0.38, Subjectivity: 0.50
+    [Compliance] Score: 0.950, [Avoidance] Score: 0.000, [Collaboration] Score: 0.700    
+    [Text] Tension: 0.412, Assertiveness: 0.350
+    [Prosody Debug]
+      Pitch:std: 980.6)
+      Energy: mean=0.0707, std=0.0433
+      Silence ratio: 0.258 (threshold: 0.0283)
+      Speech ratio: 0.828
+      Sustained energy ratio: 0.053
+      Weighted variance - Pitch: 1.000, Energy: 0.866
+    [Prosody] Tension: 0.882, Assertiveness: 0.646
+    [FINAL] Tension: 0.694, Assertiveness: 0.528
+
+→ TENSION: 0.69, ASSERTIVENESS: 0.53
+→ TKI STYLE: Compromising (moderate assertiveness/tension)
+----------------------------------------------------------------------
+Turn 4: Support Agent
+  Analyzing: 'Ok let us do that...'
+    [Sentiment]
+      Polarity: 0.50, Subjectivity: 0.50
+    [Compliance] Score: 0.950, [Avoidance] Score: 0.000, [Collaboration] Score: 0.000    
+    [Text] Tension: 0.350, Assertiveness: 0.250
+    [Prosody Debug]
+      Pitch:std: 848.3)
+      Energy: mean=0.0630, std=0.0428
+      Silence ratio: 0.282 (threshold: 0.0252)
+      Speech ratio: 0.756
+      Sustained energy ratio: 0.115
+      Weighted variance - Pitch: 1.000, Energy: 0.856
+    [Prosody] Tension: 0.845, Assertiveness: 0.653
+    [FINAL] Tension: 0.647, Assertiveness: 0.492
+
+→ TENSION: 0.65, ASSERTIVENESS: 0.49
+→ TKI STYLE: Compromising (moderate assertiveness/tension)
+----------------------------------------------------------------------
+
+======================================================================
+=== AI-DRIVEN CONFLICT RESOLUTION ===
+======================================================================
+
+Here's an analysis of the conversation and actionable recommendations:
+
+**Analysis:** The interaction started with the customer using a **Competing** style, demanding a refund. The support agent immediately shifted to a **Compromising** approach, attempting to find a mutually agreeable solution. The customer, motivated by a quick resolution, readily adopted the **Compromising** style as well. The support agent further uses **Compromising** leading to an amicable solution.
+
+**Resolution Strategies:**
+
+1.  **Agent: Value Statement & Solution Focus:** Instead of *immediately* offering a compromise, briefly acknowledge the customer's initial demand *and* proactively suggest alternatives. For example: "I understand you need a refund because of the late delivery. Let's see if a store credit, or even a partial refund and keeping the item would work for you." This acknowledges the customer's needs and guides them toward alternatives.
+2.  **Customer: Acknowledge Effort:** A simple acknowledgement of the agent's willingness to help can significantly reduce tension and foster collaboration. Example: "Okay, I appreciate you looking into this for me."
+
+**Recommendations for Approach Adjustment:**
+
+*   **Customer:** While assertiveness is good, opening with a slightly less demanding tone could lead to a more collaborative start. Framing the issue as a problem to solve *together* instead of a demand can be beneficial.
+*   **Agent:** The agent's initial compromise was effective. However, they could have briefly acknowledged the customer's initial demand for a full refund before offering alternatives. This could have shown more empathy and made the customer feel more heard. In later turns, maintain brevity and focus on execution after agreement is reached.
+(END OF RUN1)
+
+(RUN2)
+Turn 1: Customer
+  Analyzing: 'I need a refund for my order. It arrived late and I don't wa...'
+    [Sentiment]
+      Polarity: -0.30, Subjectivity: 0.60
+    [Compliance] Score: 0.100, [Avoidance] Score: 0.000, [Collaboration] Score: 0.000    
+    [Text] Tension: 0.770, Assertiveness: 0.650
+    [Prosody Debug]
+      Pitch:std: 273.0)
+      Energy: mean=0.1123, std=0.0479
+      Silence ratio: 0.110 (threshold: 0.0449)
+      Speech ratio: 0.910
+      Sustained energy ratio: 0.020
+      Weighted variance - Pitch: 1.000, Energy: 0.958
+    [Prosody] Tension: 0.904, Assertiveness: 0.691
+    [FINAL] Tension: 0.851, Assertiveness: 0.675
+
+→ TENSION: 0.85, ASSERTIVENESS: 0.67
+→ TKI STYLE: Competing (assertive, high tension)
+----------------------------------------------------------------------
+Turn 2: Support Agent
+  Analyzing: 'I understand your frustration. Let's see if we can find a so...'
+    [Sentiment]
+      Polarity: 0.00, Subjectivity: 0.00
+    [Compliance] Score: 0.500, [Avoidance] Score: 0.000, [Collaboration] Score: 0.900    
+    [Text] Tension: 0.500, Assertiveness: 0.350
+    [Prosody Debug]
+      Pitch:std: 957.5)
+      Energy: mean=0.0569, std=0.0401
+      Silence ratio: 0.230 (threshold: 0.0227)
+      Speech ratio: 0.816
+      Sustained energy ratio: 0.074
+      Weighted variance - Pitch: 1.000, Energy: 0.803
+    [Prosody] Tension: 0.883, Assertiveness: 0.599
+    [FINAL] Tension: 0.730, Assertiveness: 0.499
+
+→ TENSION: 0.7300000190734863, ASSERTIVENESS: 0.5
+→ TKI STYLE: Compromising (moderate assertiveness/tension)
+----------------------------------------------------------------------
+Turn 3: Customer
+  Analyzing: 'Store credit is fine. I just want a quick resolution....'
+    [Sentiment]
+      Polarity: 0.38, Subjectivity: 0.50
+    [Compliance] Score: 0.950, [Avoidance] Score: 0.000, [Collaboration] Score: 0.700    
+    [Text] Tension: 0.412, Assertiveness: 0.350
+    [Prosody Debug]
+      Pitch:std: 980.6)
+      Energy: mean=0.0707, std=0.0433
+      Silence ratio: 0.258 (threshold: 0.0283)
+      Speech ratio: 0.828
+      Sustained energy ratio: 0.053
+      Weighted variance - Pitch: 1.000, Energy: 0.866
+    [Prosody] Tension: 0.882, Assertiveness: 0.646
+    [FINAL] Tension: 0.694, Assertiveness: 0.528
+
+→ TENSION: 0.69, ASSERTIVENESS: 0.53
+→ TKI STYLE: Compromising (moderate assertiveness/tension)
+----------------------------------------------------------------------
+Turn 4: Support Agent
+  Analyzing: 'Ok let us do that...'
+    [Sentiment]
+      Polarity: 0.50, Subjectivity: 0.50
+    [Compliance] Score: 0.950, [Avoidance] Score: 0.000, [Collaboration] Score: 0.000    
+    [Text] Tension: 0.350, Assertiveness: 0.250
+    [Prosody Debug]
+      Pitch:std: 848.3)
+      Energy: mean=0.0630, std=0.0428
+      Silence ratio: 0.282 (threshold: 0.0252)
+      Speech ratio: 0.756
+      Sustained energy ratio: 0.115
+      Weighted variance - Pitch: 1.000, Energy: 0.856
+    [Prosody] Tension: 0.845, Assertiveness: 0.653
+    [FINAL] Tension: 0.647, Assertiveness: 0.492
+
+→ TENSION: 0.65, ASSERTIVENESS: 0.49
+→ TKI STYLE: Compromising (moderate assertiveness/tension)
+----------------------------------------------------------------------
+
+======================================================================
+=== AI-DRIVEN CONFLICT RESOLUTION ===
+======================================================================
+
+Okay, here's an analysis and recommendations based on the provided TKI-informed conversation:
+
+**1. Resolution Strategies:**
+
+*   **Offer a Choice (for the Customer):** Given the initial competing style, provide the customer with *two specific options* regarding the refund, beyond just store credit. E.g., "We can offer store credit *or* a partial refund of X% given the late delivery." This addresses their assertiveness while moving towards a collaborative solution.
+*   **Emphasize Timeliness (for the Support Agent):** Since the customer values speed, the agent should immediately detail the *exact steps* and *timeframe* for issuing the store credit. "Okay, I'm issuing the store credit now. You'll receive an email confirmation within 5 minutes." This reinforces the agent's responsiveness and the customer's need for quick action.
+
+**2. Approach Adjustments:**
+
+*   **Customer: Practice Active Listening.** While demanding a refund is understandable, pausing to acknowledge the agent's initial understanding ("Okay, I appreciate that") before restating the need could soften the interaction and encourage better cooperation. Even a brief acknowledgment of their effort can reduce tension.
+*   **Support Agent: Briefly Validate the Customer's Emotion.** Before jumping to "Let's find a solution," add a short statement validating the customer's frustration. Example: "I understand being upset when an order arrives late." This builds rapport and can defuse the situation before moving towards compromise. Avoid generic statements, and try to personalize the response.
+(END OF RUN2)
+
+(RUN3)
+Turn 1: Customer
+  Analyzing: 'I need a refund for my order. It arrived late and I don't wa...'
+    [Sentiment]
+      Polarity: -0.30, Subjectivity: 0.60
+    [Compliance] Score: 0.100, [Avoidance] Score: 0.000, [Collaboration] Score: 0.000    
+    [Text] Tension: 0.770, Assertiveness: 0.650
+    [Prosody Debug]
+      Pitch:std: 273.0)
+      Energy: mean=0.1123, std=0.0479
+      Silence ratio: 0.110 (threshold: 0.0449)
+      Speech ratio: 0.910
+      Sustained energy ratio: 0.020
+      Weighted variance - Pitch: 1.000, Energy: 0.958
+    [Prosody] Tension: 0.904, Assertiveness: 0.691
+    [FINAL] Tension: 0.851, Assertiveness: 0.675
+
+→ TENSION: 0.85, ASSERTIVENESS: 0.67
+→ TKI STYLE: Competing (assertive, high tension)
+----------------------------------------------------------------------
+Turn 2: Support Agent
+  Analyzing: 'I understand your frustration. Let's see if we can find a so...'
+    [Sentiment]
+      Polarity: 0.00, Subjectivity: 0.00
+    [Compliance] Score: 0.500, [Avoidance] Score: 0.000, [Collaboration] Score: 0.900    
+    [Text] Tension: 0.500, Assertiveness: 0.350
+    [Prosody Debug]
+      Pitch:std: 957.5)
+      Energy: mean=0.0569, std=0.0401
+      Silence ratio: 0.230 (threshold: 0.0227)
+      Speech ratio: 0.816
+      Sustained energy ratio: 0.074
+      Weighted variance - Pitch: 1.000, Energy: 0.803
+    [Prosody] Tension: 0.883, Assertiveness: 0.599
+    [FINAL] Tension: 0.730, Assertiveness: 0.499
+
+→ TENSION: 0.7300000190734863, ASSERTIVENESS: 0.5
+→ TKI STYLE: Compromising (moderate assertiveness/tension)
+----------------------------------------------------------------------
+Turn 3: Customer
+  Analyzing: 'Store credit is fine. I just want a quick resolution....'
+    [Sentiment]
+      Polarity: 0.38, Subjectivity: 0.50
+    [Compliance] Score: 0.950, [Avoidance] Score: 0.000, [Collaboration] Score: 0.700    
+    [Text] Tension: 0.412, Assertiveness: 0.350
+    [Prosody Debug]
+      Pitch:std: 980.6)
+      Energy: mean=0.0707, std=0.0433
+      Silence ratio: 0.258 (threshold: 0.0283)
+      Speech ratio: 0.828
+      Sustained energy ratio: 0.053
+      Weighted variance - Pitch: 1.000, Energy: 0.866
+    [Prosody] Tension: 0.882, Assertiveness: 0.646
+    [FINAL] Tension: 0.694, Assertiveness: 0.528
+
+→ TENSION: 0.69, ASSERTIVENESS: 0.53
+→ TKI STYLE: Compromising (moderate assertiveness/tension)
+----------------------------------------------------------------------
+Turn 4: Support Agent
+  Analyzing: 'Ok let us do that...'
+    [Sentiment]
+      Polarity: 0.50, Subjectivity: 0.50
+    [Compliance] Score: 0.950, [Avoidance] Score: 0.000, [Collaboration] Score: 0.000    
+    [Text] Tension: 0.350, Assertiveness: 0.250
+    [Prosody Debug]
+      Pitch:std: 848.3)
+      Energy: mean=0.0630, std=0.0428
+      Silence ratio: 0.282 (threshold: 0.0252)
+      Speech ratio: 0.756
+      Sustained energy ratio: 0.115
+      Weighted variance - Pitch: 1.000, Energy: 0.856
+    [Prosody] Tension: 0.845, Assertiveness: 0.653
+    [FINAL] Tension: 0.647, Assertiveness: 0.492
+
+→ TENSION: 0.65, ASSERTIVENESS: 0.49
+→ TKI STYLE: Compromising (moderate assertiveness/tension)
+----------------------------------------------------------------------
+
+======================================================================
+=== AI-DRIVEN CONFLICT RESOLUTION ===
+======================================================================
+
+Okay, here's an analysis of the conversation and recommendations:
+
+**Analysis:**
+
+*   **Initial Conflict:** The customer starts with a Competing style, driven by high tension and assertiveness, demanding a refund. The agent immediately shifts to a Compromising approach, aiming for a mutually agreeable solution.
+*   **De-escalation:** The agent's Compromising approach effectively de-escalates the situation. The customer quickly moves to a similar style, accepting store credit.
+*   **Successful Outcome:** The issue is resolved quickly, demonstrating the effectiveness of the agent's strategy.
+
+**Resolution Strategies & Recommendations:**
+
+1.  **Agent (already employing effectively):**
+    *   **Acknowledge and Validate:** Continue to acknowledge the customer's feelings ("I understand your frustration"). This diffuses tension.
+    *   **Frame as Problem-Solving:** Maintain a collaborative tone, focusing on finding a "solution that works for both of us."
+2.  **Customer:**
+    *   **Start with "I" Statements:** Begin by stating needs and feelings. Example: "I'm frustrated because my order was late, and I need to find a way to resolve this."        
+
+**Adjustments for Better Outcomes:**
+
+*   **Agent:** *No real adjustments needed*. The Compromising approach worked perfectly. The agent could continue this behavior.
+*   **Customer:** While the resolution was achieved, starting with slightly less assertiveness could lead to even faster resolution or more favorable outcomes (e.g., a partial refund if they had inquired). This doesn't mean being passive but framing the issue with less initial force.
+(END OF RUN3)

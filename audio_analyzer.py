@@ -1,8 +1,3 @@
-"""
-Audio prosody analysis module for conflict detection.
-Analyzes speech patterns including energy, pitch, and pauses.
-"""
-
 import librosa
 import numpy as np
 
@@ -34,17 +29,14 @@ def analyze_prosody(audio_path):
         pitch_values = np.array(pitch_values)
         
         if len(pitch_values) > 0:
-            pitch_mean = np.mean(pitch_values)
             pitch_std = np.std(pitch_values)
         else:
-            pitch_mean = 0
             pitch_std = 0
         
         # 2. RMS Energy frame-by-frame
         rms = librosa.feature.rms(y=y)[0]
         energy_mean = np.mean(rms)
         energy_std = np.std(rms)
-        energy_max = np.max(rms)
         
         # 3. Detect pauses/silence
         energy_threshold = energy_mean * 0.4
@@ -103,8 +95,8 @@ def analyze_prosody(audio_path):
             0.10 * min(spectral_centroid / 3000.0, 1.0)
         )
         
-        _print_debug_info(pitch_mean, pitch_std, energy_mean, energy_std, 
-                         energy_max, silence_ratio, energy_threshold, 
+        _print_debug_info(pitch_std, energy_mean, energy_std, 
+                         silence_ratio, energy_threshold, 
                          speech_ratio, sustained_energy_ratio, 
                          weighted_pitch_var, weighted_energy_var, 
                          tension, assertiveness)
@@ -116,15 +108,15 @@ def analyze_prosody(audio_path):
         return 0.0, 0.5
 
 
-def _print_debug_info(pitch_mean, pitch_std, energy_mean, energy_std, 
-                     energy_max, silence_ratio, energy_threshold, 
+def _print_debug_info(pitch_std, energy_mean, energy_std, 
+                     silence_ratio, energy_threshold, 
                      speech_ratio, sustained_energy_ratio, 
                      weighted_pitch_var, weighted_energy_var, 
                      tension, assertiveness):
     """Print detailed prosody analysis debug information."""
     print(f"    [Prosody Debug]")
-    print(f"      Pitch: {pitch_mean:.1f}Hz (std: {pitch_std:.1f})")
-    print(f"      Energy: mean={energy_mean:.4f}, std={energy_std:.4f}, max={energy_max:.4f}")
+    print(f"      Pitch:std: {pitch_std:.1f}")
+    print(f"      Energy: mean={energy_mean:.4f}, std={energy_std:.4f}")
     print(f"      Silence ratio: {silence_ratio:.3f} (threshold: {energy_threshold:.4f})")
     print(f"      Speech ratio: {speech_ratio:.3f}")
     print(f"      Sustained energy ratio: {sustained_energy_ratio:.3f}")

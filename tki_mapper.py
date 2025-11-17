@@ -1,8 +1,3 @@
-"""
-TKI (Thomas-Kilmann Conflict Mode Instrument) style mapping module.
-"""
-
-
 def map_tki_style(tension, assertiveness):
     """
     Map tension and assertiveness scores to TKI conflict styles.
@@ -17,18 +12,31 @@ def map_tki_style(tension, assertiveness):
     Returns:
         str: TKI conflict style description
     """
-    if assertiveness >= 0.6:
-        if tension >= 0.6:
-            return "Competing (assertive, high tension)"
-        else:
-            return "Collaborating (assertive, constructive)"
-    elif assertiveness >= 0.35:
+    # Competing: High assertiveness + High tension
+    if assertiveness >= 0.60 and tension >= 0.75:
+        return "Competing (assertive, high tension)"
+    
+    # Collaborating: Medium-high assertiveness + Low tension
+    if assertiveness >= 0.50 and tension < 0.65:
+        return "Collaborating (assertive, constructive)"
+    
+    # Compromising: Medium assertiveness + Medium tension
+    if assertiveness >= 0.45 and assertiveness < 0.60 and tension >= 0.50:
         return "Compromising (moderate assertiveness/tension)"
-    else:  # Low assertiveness
-        if tension >= 0.35:
-            return "Avoiding (withdrawal, anxious)"
-        else:
-            return "Accommodating (yielding, low tension)"
+    
+    # Avoiding: Low assertiveness + High tension
+    if assertiveness < 0.45 and tension >= 0.55:
+        return "Avoiding (withdrawal, anxious)"
+    
+    # Accommodating: Low assertiveness + Low tension
+    if assertiveness < 0.45 and tension < 0.55:
+        return "Accommodating (yielding, low tension)"
+    
+    # Default fallback based on assertiveness
+    if assertiveness >= 0.55:
+        return "Collaborating (assertive, constructive)"
+    else:
+        return "Accommodating (yielding, low tension)"
 
 
 def debug_tki_mapping(tension, assertiveness):
