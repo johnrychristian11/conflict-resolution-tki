@@ -63,8 +63,6 @@ def detect_compliance(text):
 
 def detect_collaboration(text):
     """
-    Detect collaborative/empathetic patterns (mutual problem-solving).
-    
     Args:
         text: Text string to analyze
         
@@ -174,12 +172,6 @@ def analyze_sentiment(text):
     compliance = detect_compliance(text)
     collaboration = detect_collaboration(text)
     avoidance = detect_avoidance(text)
-    
-    # Assertiveness logic:
-    # - Strong collaboration (mutual problem-solving) = low assertiveness
-    # - Strong avoidance (asking to delay) = very low assertiveness
-    # - High compliance (acceptance) = low assertiveness
-    # - Assertive demands = high assertiveness
     
     if collaboration > 0.6:
         # Collaborative/empathetic tone - moderate to low assertiveness

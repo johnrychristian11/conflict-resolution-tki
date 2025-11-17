@@ -115,7 +115,7 @@ def _print_debug_info(pitch_std, energy_mean, energy_std,
                      tension, assertiveness):
     """Print detailed prosody analysis debug information."""
     print(f"    [Prosody Debug]")
-    print(f"      Pitch:std: {pitch_std:.1f})"
+    print(f"      Pitch:std: {pitch_std:.1f}")
     print(f"      Energy: mean={energy_mean:.4f}, std={energy_std:.4f}")
     print(f"      Silence ratio: {silence_ratio:.3f} (threshold: {energy_threshold:.4f})")
     print(f"      Speech ratio: {speech_ratio:.3f}")
