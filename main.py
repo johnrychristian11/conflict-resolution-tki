@@ -58,8 +58,6 @@ def main():
     
     if not api_key:
         print("No API key found. Please set GOOGLE_API_KEY environment variable")
-        print("Example: export GOOGLE_API_KEY='your-api-key-here'")
-        print("Or get one from: https://makersuite.google.com/app/apikey")
     else:
         resolution = generate_resolution(conversation_analysis, api_key)
         print(resolution)
